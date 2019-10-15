@@ -1,0 +1,17 @@
+#profile_content{
+	
+	margin-right:20%;
+	margin-left:20%;
+	height:100%;
+	border:2px solid black;
+	text-align:center;
+}
+img{
+	height:50%;
+	width:50%;
+	radius:50%;
+}
+#warning{
+	font-size:40px;
+	color:red;
+}

@@ -1,0 +1,272 @@
+body{
+	width:100%;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#main{
+    transition: margin-left .5s;
+    /*padding: 16px;*/
+    margin-top:70px;/*maintain the height an margin top*/
+	height:1000px;
+	background-color:red;
+}
+
+#content{
+width:100%;	
+height:100%;
+background-color:gray;
+}
+
+#content header{
+height:55px;
+background-color:#white; 
+}
+#content header #tags{
+	padding-top:10px;
+	width:100%;	
+}
+#content header #tags a{
+	text-decoration:none;
+	text-align:center;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:20px;
+	padding-top:20px;
+	font-size:20px;
+	color:black;
+	/*
+	border-bottom:solid 1px black; place the border on the selected item i.e active*/
+}
+#content header #tags a:hover{
+	background-color:black;
+	color:white;
+}
+/*NOW TO THE MAIN BODY or the section*/
+
+#home{
+	height:592px;
+	background-color:gray;
+	background-image: url("images/front.jpg");
+	background-size: 100% 592px;
+    background-repeat: no-repeat;
+   
+	/*A relevant background image*/
+
+}
+#home h1{
+	padding-top:90px;
+	top:300px;
+	left:50%;
+	text-align:center;
+	font-size:50px;
+	color:white;
+}
+/*home page is done now to the about us page*/
+#about{
+	height:592px;
+	background-color:#E6E9EE;
+	text-align:center;
+	color:black;
+}
+.about_images{
+	height:300px;
+	width:300px;
+	position:center;
+	border-radius: 50%;
+
+}
+
+#about h1{
+	text-align:center;
+	color:Black;
+	font-size:30px;
+}
+
+#about1{
+  float:left;
+  width: 30%;
+  margin-right:2%;
+  margin-top:2%;
+  margin-left:1%;
+  /*background-color:yellow;*/
+  height:90%;
+}
+
+#about2{
+  float:left;
+  width: 30%;
+  /*background-color:blue;*/
+  margin-right:2%;
+  margin-top:2%;
+  height:90%;
+}
+
+#about3{
+  float:left;
+  width: 30%;
+  /*background-color:orange;*/
+  margin-right:2%;
+  margin-top:2%;
+  height:90%;
+}
+
+
+/*ABOUT US IS DONE NOW WE HEAD TO PRODUCTS*/
+#product{
+	height:592px;
+	background-color:#E6E9EE;
+	text-align:center;
+	color:black;
+}
+#product h1{
+	font-size:30px;
+}
+#prod1{
+	float:left;
+	width:23%;
+	height:85%;
+	margin-top:3%;
+	margin-left:2%;
+}
+#prod2{
+	float:left;
+	width:23%;
+	height:85%;
+	margin-top:3%;
+	margin-left:2%;
+}
+#prod3{
+	float:left;
+	width:23%;
+	height:85%;
+	margin-top:3%;
+	margin-left:2%;
+}
+#prod4{
+	float:left;
+	width:23%;
+	height:85%;
+	margin-top:3%;
+	margin-left:2%
+}
+.prod_images{
+	height:70%;
+	width:100%;
+	position:center;
+	border-radius: 50%;/*appears in a circle*/
+
+}
+/*now going to work*/
+#work{
+	height:592px;
+	background-color:#E6E9EE;
+	color:black;
+}
+
+#work1{
+	float:left;
+	width:45%;
+	height:90%;
+	margin-top:3%;
+}
+#work2{
+	float:left;
+	width:45%;
+	height:90%;
+	margin-top:3%;
+	margin-left:5%
+}
+#work_image{
+	height:93%;
+	width:100%;
+}
+#work h1{
+	text-align:center;
+	font-size:30px;
+}
+
+/*contact sub page*/
+#contact{
+	height:550px;
+	background-color:#E6E9EE;
+	color:black;
+}
+#contact_set{
+	margin-left:10%;
+	margin-right:10%;
+	}
+#contact h1{
+	text-align:center;
+	font-size:30px;
+}
+#contact input[type=text]{
+	border:none;
+	border-radius:4px;
+	height:30px;
+}
+#contact textarea{
+	border:none;
+	border-radius:5px;
+}
+#contact input[type=button]{
+	border:none;
+	color:white;
+	background-color:green;
+	height:30px;
+	font-size:20px;
+	width:30%;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,7 @@ include '../header/header.php';
 	<div id='main'>
 		<div id='content'/>
 					<header>
-							<h1>Dinning Set Page</h1>
+							<h1>Kitchen Page</h1>
 					</header>
 
 					<section>

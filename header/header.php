@@ -276,10 +276,10 @@ window.onclick = function(event) {
 				<div id="mysidenav" class="sidenav">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <a href="\Ecommerce\index.php">Home</a>
-				  <a href="\Ecommerce\tables_page\table.php">Tables</a>
-				  <a href="\Ecommerce\couch_page\couch.php">Couch</a>
-				  <a href="\Ecommerce\dinning_page\dinning.php">Dinning Set</a>
-				  <a href="\Ecommerce\beds\beds.php">Beds</a>
+				  <!--<a href="\Ecommerce\tables_page\table.php">Tables</a>-->
+				  <!--<a href="\Ecommerce\couch_page\couch.php">Couch</a>-->
+				  <a href="\Ecommerce\dinning_page\dinning.php">Kitchen </a>
+				  <a href="\Ecommerce\beds\beds.php">Agriculture</a>
 				  <a href="\Ecommerce\profile_page\profile.php">Profile</a>
 				</div>
 		</div>

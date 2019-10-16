@@ -174,12 +174,12 @@ function closeNav() {
 				<input type="file" name="myimage" accept="image/*" onchange="preview_image(event)" style="color:white; background-color:green; width:400px;">
 				<br><br>
 				
-					Furniture Type <br>
+					Item Type <br>
 					<select name="type">
-						<option value='bed'>Beds</option>
+						<option value='bed'>Agriculture</option>
+						<option value='dinning'>Kitchen</option>
 						<option value='table'>Tables</option>
 						<option value='couch'>Couch</option>
-						<option value='dinning'>Dinning set</option>
 					</select>
 				<br><br>
 

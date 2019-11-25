@@ -127,31 +127,17 @@ background-color:#white;
 }
 #prod1{
 	float:left;
-	width:23%;
+	width:48%;
 	height:85%;
 	margin-top:3%;
 	margin-left:2%;
 }
 #prod2{
 	float:left;
-	width:23%;
+	width:48%;
 	height:85%;
 	margin-top:3%;
 	margin-left:2%;
-}
-#prod3{
-	float:left;
-	width:23%;
-	height:85%;
-	margin-top:3%;
-	margin-left:2%;
-}
-#prod4{
-	float:left;
-	width:23%;
-	height:85%;
-	margin-top:3%;
-	margin-left:2%
 }
 .prod_images{
 	height:70%;

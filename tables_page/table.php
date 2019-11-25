@@ -7,10 +7,8 @@ include '../header/header.php';
 <html>
 <head>
 	<title></title>
-		
 		<link rel="stylesheet" type="text/css" href="\Ecommerce\beds\beds.css">
 		<!--This styling is same as the beds.php-->
-
 </head>
 <body>
 

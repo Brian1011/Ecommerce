@@ -35,7 +35,8 @@ include '../header/header.php';
 			<img src= "\Ecommerce\db_images\927d5c119a8b14e4de25b882829efd98.png" width=400px height=400px>
 	-->
 						<?php  
-							$sql = "select * from furniture where type_of_furniture ='bed' ";
+							//$sql = "select * from furniture where type_of_furniture ='bed' ";
+							$sql = "select * from furniture where type_of_furniture ='agriculture' ";
 							$result = $conn->query($sql);
 
 							// I confused the image_name and image_path...mic drop

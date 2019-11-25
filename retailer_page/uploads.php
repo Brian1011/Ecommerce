@@ -54,12 +54,13 @@ $fname = $row['fname'];
 		<br><br>
 		<table>
 		<tr>
-			<th>Furniture Id</th>
-			<th>Furniture Type</th>
+			<th>Item Id</th>
+			<th>Item Type</th>
 			<th>Color</th>
 			<th>Cost</th>
 			<th>Quantity</th>
 			<th>Material</th>
+			<th>Status</th>
 			<th>Delete</th>
 			<th>Update</th>
 		</tr>
@@ -74,15 +75,25 @@ $fname = $row['fname'];
 						$cost = $row['cost'];
 						$quantity = $row['quantity'];
 						$material = $row['material'];
+						$status = $row['status'];
 						?>
 
 						<tr>
 							<td><?php echo $furniture_id?></td>
 							<td><?php echo $type_of_furniture ?></td>
-							<td> <?php echo $color ?> </td>
+							<td><?php echo $color ?> </td>
 							<td><?php echo $cost ?> </td>
-							<td> <?php echo $quantity ?> </td>
-							<td> <?php echo $material ?></td>
+							<td><?php echo $quantity ?> </td>
+							<td><?php echo $material ?></td>
+							<td>
+								<?php
+									if($status == 0) {
+										echo "Created";
+									}else if($status == 1){
+										echo "Edited";
+									}
+								?>
+							</td>
 							<td>
 								<form action="delete_furniture.php" method="post">
 									<input type="hidden" name="id" value="<?php echo $furniture_id ?>">

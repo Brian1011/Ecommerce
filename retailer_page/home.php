@@ -18,6 +18,7 @@ $email = $row['email']; //email
 $location = $row['location'];
 $phone = $row['phone_no'];
 							//the username is the uname
+//$_SESSION['id'] = $id;
 
 ?>
 
@@ -52,69 +53,69 @@ $phone = $row['phone_no'];
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-}
+	}
 
-.sidenav p {
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-.sidenav h2{
-	font-size: 25px;
-	color: white;
-	transition: 0.3s;
-	text-align:center;
-}
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
+	.sidenav p {
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: white;
+	    display: block;
+	    transition: 0.3s;
+	}
+	.sidenav h2{
+		font-size: 25px;
+		color: white;
+		transition: 0.3s;
+		text-align:center;
+	}
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 36px;
+	    margin-left: 50px;
+	}
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
 
-#sucess_image{
-	width:400px;
-	height:300px;
-	margin:auto;
-}
+	#sucess_image{
+		width:400px;
+		height:300px;
+		margin:auto;
+	}
 
-#output_image
-{
- max-width:400px;
- width:100%;
- height:100%;
-}
-#button_page{
-	border:0px;
-	background-color:green;
-	color:white;
-	height:30px;
-	width:150px;
-}
-.button_page{
-	border:0px;
-	background-color:black;
-	color:white;
-	height:30px;
-	width:90px;
-}
-	</style>
-	<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
-}
+	#output_image
+	{
+	 max-width:400px;
+	 width:100%;
+	 height:100%;
+	}
+	#button_page{
+		border:0px;
+		background-color:green;
+		color:white;
+		height:30px;
+		width:150px;
+	}
+	.button_page{
+		border:0px;
+		background-color:black;
+		color:white;
+		height:30px;
+		width:90px;
+	}
+		</style>
+		<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "50%";
+	}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
 </script>
 </head>
 <body>
@@ -176,10 +177,14 @@ function closeNav() {
 				
 					Item Type <br>
 					<select name="type">
+						<option value='agriculture'>Agriculture</option>
+						<option value='kitchen'>Kitchen</option>
+						<!--
 						<option value='bed'>Agriculture</option>
 						<option value='dinning'>Kitchen</option>
 						<option value='table'>Tables</option>
 						<option value='couch'>Couch</option>
+					-->
 					</select>
 				<br><br>
 
@@ -197,6 +202,7 @@ function closeNav() {
 						<option value='Metallic'>Metallic</option>
 					</select>
 					<br><br>
+				<input type="hidden" name="retailer_id" value="<?php echo $id; ?>">
 				<input type="submit" name="upload" value="Upload" id='button_page'>
 			</form>
 		</section>

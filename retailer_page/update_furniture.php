@@ -23,8 +23,6 @@
 	$_SESSION['image'] = $new_image;
 	$image = $_SESSION['image'];
 
-
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -105,10 +103,8 @@
 			Type of Furniture:
 				<select name="type" style="float:right;">
 						<option value="<?php echo $type_of_furniture; ?>" style="float:right;"><?php echo $type_of_furniture; ?></option>
-						<option value='bed'>Beds</option>
-						<option value='table'>Tables</option>
-						<option value='couch'>Couch</option>
-						<option value='dinning'>Dinning set</option>
+						<option value='agriculture'>Agriculture</option>
+						<option value='kitchen'>Kitchen</option>
 					</select>
 				<br><br>	
 			Color:<input type="text" name="color" value="<?php echo $color; ?>" style="float:right;"><br><br>

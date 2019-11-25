@@ -98,7 +98,7 @@ include 'header/header.php';
 								<img src="images\shop.png" class='about_images'>
 								<br>
 								<h3>Who We Are</h3>
-								We are an online furniture shop that offers variety of furniture products to our customers and allow them to purchase online
+								We are an online ecommerce shop that offers variety of juakali products to our customers and allow them to purchase online
 								<!--an image goes here-->
 							</div >
 
@@ -113,7 +113,7 @@ include 'header/header.php';
 								<img src="images\partners.png" class='about_images'>
 								<br>
 								<h3>To Our Parteners</h3>
-								We also promote the juakali industry by allowing them to sell their furniture on our online platform.
+								We also promote the juakali industry by allowing them to sell their products online platform.
 							</div>
 						</article>
 				<hr>
@@ -122,23 +122,13 @@ include 'header/header.php';
 							<p>We offer the following categories of products with plenty of variety in each category</p>
 							<!--IMAGES TO REPRESENT EACH ITEM-->
 							<div id='prod1'>
-								<a href="\Ecommerce\tables_page\table.php"><img src="images\table1.jpg" class='prod_images'></a>
-								Tables
+								<a href="\Ecommerce\dinning_page\dinning.php"><img src="images\download.jpg" class='prod_images'></a>
+								Kitchen
 							</div>
 
 							<div id='prod2'>
-								<a href="\Ecommerce\dinning_page\dinning.php"><img src="images\dt.jpg" class='prod_images'></a>
-								Dinning Set
-							</div>
-
-							<div id='prod3'>
-								<a href="\Ecommerce\couch_page\couch.php"><img src="images\sofa.jpg" class='prod_images'></a>
-								Couch
-							</div>
-
-							<div id='prod4'>
-								<a href="\Ecommerce\beds\beds.php"><img src="images\bed.jpeg" class='prod_images'></a>
-								Beds
+								<a href="\Ecommerce\beds\beds.php"><img src="images\download1.jpg" class='prod_images'></a>
+								Agriculture
 							</div>
 
 						</article>

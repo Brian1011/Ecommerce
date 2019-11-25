@@ -26,7 +26,6 @@ include '../header/header.php';
 							$result = $conn->query($sql);
 
 							if(!$row = $result->fetch_assoc()){
-
 								echo '<center><H1>No items present in the cart<H1></center>';
 								echo "<center><img src='\Ecommerce\cart\clear_shopping_cart1600.png' style='width:300px; height:300px;'></center>";
 							}else{
@@ -72,7 +71,7 @@ include '../header/header.php';
 												<td>
 													<form action='remove_item.php' method="post">
 														<input type="hidden" name="remove_id" value="<?php echo $product_id; ?>">
-														<button type="submit" style="width:70px;">Remove Item</button>
+														<button type="submit" style="width:100px; background-color: red;">Remove Item</button>
 													</form>
 												</td>
 											</tr>
@@ -84,7 +83,25 @@ include '../header/header.php';
 								</table>
 								</center>
 									<br><br>
-											<center><h1 style="margin-bottom:10px;">Total price in ksh:<?php echo $total; ?></h1></center>
+											<center>
+												<h1 style="margin-bottom:10px;">Total price in ksh:<?php echo $total; ?>
+												</h1>
+												
+													<?php
+														if($total == 0){
+													?>
+														
+													<?php
+														} else {
+													?>
+														<a href="\Ecommerce\cart\checkout.php">
+															<button type="submit" style="width:150px; background-color: blue;">Checkout</button>
+														</a>
+													<?php
+														}
+													 ?>
+												
+											</center>
 								<?php
 							}
 					?>
